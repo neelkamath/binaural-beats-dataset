@@ -15,7 +15,7 @@
         "effects": [
           "Enkephalin release for reduced stress",
           "Allows brain to produce enkaphalins (all natural pain killer)",
-          "Full memory scanning; releases enkephalins",
+          "Full memory scanning",
           "Vital for memory and learning; problem solving, object naming"
         ],
         "name": "4 Hz Delta.mp3"
@@ -23,7 +23,8 @@
       {
         "frequency": 3,
         "effects": [
-          "Profound relaxation, restorative sleep; tranquility and peace"
+          "Profound relaxation, restorative sleep",
+          "Tranquility and peace"
         ],
         "name": "3 Hz Delta.mp3"
       }
@@ -75,7 +76,8 @@
       {
         "frequency": 7,
         "effects": [
-          "Deep relaxation, meditation; lucid dreaming",
+          "Deep relaxation, meditation",
+          "Lucid dreaming",
           "Increased memory, focus, creativity"
         ],
         "name": "7 Hz Theta.mp3"
@@ -148,7 +150,7 @@
       {
         "frequency": 12,
         "effects": [
-          "Centering, mental stability."
+          "Centering, mental stability"
         ],
         "name": "12 Hz Alpha.mp3"
       }
@@ -193,7 +195,10 @@
       {
         "frequency": 14,
         "effects": [
-          "Awakeness, alert; concentration on tasks; focusing; vitality."
+          "Awakeness, alert",
+          "Concentration on tasks",
+          "Focusing",
+          "Vitality"
         ],
         "name": "14 Hz Beta.mp3"
       },
