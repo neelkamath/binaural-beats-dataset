@@ -12,7 +12,7 @@ The [`src/tracks`](src/tracks) directory contains the binaural beats in MP3 form
 |`solfeggioRanges`|Yes|`array`|Metadata on the subranges of binaural beats mixed with solfeggio|`{"binauralBeatFrequency": 12, "solfeggioFrequency": 396, "effects": ["Designed to ease you into a state of mental awareness"], "name": "12 Hz Alpha 396 Hz Solfeggio.mp3"}`|
 |`isochronicRanges`|Yes|`array`|Metadata on the subranges of binaural beats mixed with isochronic pulses|`{"frequency": 10, "effects": ["More intense meditation"], "name": "10 Hz Alpha + Isochronic Pulses.mp3"}`|
 |`explanation`|No|`string`|What this range of binaural beats do|`"Delta brainwaves are considered the most relaxing brainwave frequency range."`|
-|`benefits`|No|`string`|Positive effects of this brainwave|`"Having high amounts of self-control"`|
+|`benefits`|No|`array` of `string`s|Positive effects of this brainwave|`["Having high amounts of self-control"]`|
 
 `pureRanges` has the following structure.
 
