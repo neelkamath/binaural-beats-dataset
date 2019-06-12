@@ -2,12 +2,12 @@
 
 The [`src/tracks`](src/tracks) directory contains the binaural beats in MP3 format. Solfeggio tracks are fifteen minutes long, and the rest are one minute long.
 
-[`src/data.json`](src/data.json) contains metadata on binaural beats (frequencies are measured in Hz). It contains four keys: `delta`, `theta`, `alpha`, `beta`, and `gamma`. Each of these keys' values have the following structure.
+[`src/data.json`](src/data.json) contains metadata on binaural beats (frequencies are measured in Hz). It contains four keys: `delta`, `theta`, `alpha`, `beta`, and `gamma`, each having the following structure.
 
 |Key|Optional|Data type|Explanation|Example|
 |---|---|---|---|---|
-|`minFrequency`|No|`number`|Starting frequency in Hz|`0.5`|
-|`maxFrequency`|No|`number`|Ending frequency in Hz|`4`|
+|`minFrequency`|No|`number`|Starting frequency|`0.5`|
+|`maxFrequency`|No|`number`|Ending frequency|`4`|
 |`pureRanges`|No|`array`|Metadata on the subranges of pure binaural beats|`[{"frequency": 0.9, "effects": ["Euphoric feeling"], "name": "0.9 Hz Delta.mp3"}]`|
 |`solfeggioRanges`|Yes|`array`|Metadata on the subranges of binaural beats mixed with solfeggio|`{"binauralBeatFrequency": 12, "solfeggioFrequency": 396, "effects": ["Designed to ease you into a state of mental awareness"], "name": "12 Hz Alpha 396 Hz Solfeggio.mp3"}`|
 |`isochronicRanges`|Yes|`array`|Metadata on the subranges of binaural beats mixed with isochronic pulses|`{"frequency": 10, "effects": ["More intense meditation"], "name": "10 Hz Alpha + Isochronic Pulses.mp3"}`|
@@ -18,7 +18,7 @@ The [`src/tracks`](src/tracks) directory contains the binaural beats in MP3 form
 
 |Key|Optional|Data type|Explanation|Example|
 |---|---|---|---|---|
-|`frequency`|No|`number`|Frequency in Hz|`0.9`|
+|`frequency`|No|`number`|Frequency|`0.9`|
 |`effects`|Yes|`array` of `string`s|Effects of hearing this track|`["Euphoric feeling"]`|
 |`name`|No|`string`|Name of the track present in the `tracks` subdirectory|`"0.9 Hz Delta.mp3"`|
 
@@ -26,8 +26,8 @@ The [`src/tracks`](src/tracks) directory contains the binaural beats in MP3 form
 
 |Key|Optional|Data type|Explanation|Example|
 |---|---|---|---|---|
-|`binauralBeatFrequency`|No|`number`|Frequency of binaural beats in Hz|`3`|
-|`solfeggioFrequency`|No|`number`|Frequency of the solfeggio in Hz|`741`|
+|`binauralBeatFrequency`|No|`number`|Binaural beats' frequency|`3`|
+|`solfeggioFrequency`|No|`number`|Solfeggio's frequency|`741`|
 |`effects`|No|`array` of `string`s|Effects of hearing this track|`["Deep state of relaxation"]`|
 |`name`|No|`string`|Name of the track present in the `tracks` subdirectory|`"3 Hz Delta 741 Hz Solfeggio.mp3"`|
 
@@ -35,7 +35,7 @@ The [`src/tracks`](src/tracks) directory contains the binaural beats in MP3 form
 
 |Key|Optional|Data type|Explanation|Example|
 |---|---|---|---|---|
-|`frequency`|No|`number`|Frequency in Hz|`4`|
+|`frequency`|No|`number`|Frequency|`4`|
 |`effects`|Yes|`array` of `string`s|Effects of hearing this track|`["More intense meditation"]`|
 |`name`|No|`string`|Name of the track present in the `tracks` subdirectory|`"4 Hz Delta + Isochronic Pulses.mp3"`|
 
