@@ -2,7 +2,7 @@
   "alpha": {
     "minFrequency": 8,
     "maxFrequency": 12,
-    "pureRanges": [
+    "pure": [
       {
         "frequency": 8,
         "effects": [
@@ -18,7 +18,7 @@
         "name": "Alpha_12_Hz.mp3"
       }
     ],
-    "solfeggioRanges": [
+    "solfeggio": [
       {
         "binauralBeatFrequency": 12,
         "solfeggioFrequency": 396,
@@ -28,7 +28,7 @@
         "name": "Alpha_12_Hz_Solfeggio_396_Hz.mp3"
       }
     ],
-    "isochronicRanges": [
+    "isochronic": [
       {
         "frequency": 10,
         "effects": [
@@ -54,7 +54,7 @@
   "beta": {
     "minFrequency": 13,
     "maxFrequency": 30,
-    "pureRanges": [
+    "pure": [
       {
         "frequency": 14,
         "effects": [
@@ -88,7 +88,7 @@
   "delta": {
     "minFrequency": 0.5,
     "maxFrequency": 4,
-    "pureRanges": [
+    "pure": [
       {
         "frequency": 0.9,
         "effects": [
@@ -115,7 +115,7 @@
         "name": "Delta_3_Hz.mp3"
       }
     ],
-    "solfeggioRanges": [
+    "solfeggio": [
       {
         "binauralBeatFrequency": 3,
         "solfeggioFrequency": 741,
@@ -133,7 +133,7 @@
         "name": "Delta_4_Hz_Solfeggio_528_Hz.mp3"
       }
     ],
-    "isochronicRanges": [
+    "isochronic": [
       {
         "frequency": 4,
         "effects": [
@@ -158,13 +158,13 @@
   "gamma": {
     "minFrequency": 40,
     "maxFrequency": 70,
-    "pureRanges": [
+    "pure": [
       {
         "frequency": 40,
         "name": "Gamma_40_Hz.mp3"
       }
     ],
-    "isochronicRanges": [
+    "isochronic": [
       {
         "frequency": 40,
         "name": "Gamma_40_Hz_Isochronic_Pulses.mp3"
@@ -186,7 +186,7 @@
   "theta": {
     "minFrequency": 4,
     "maxFrequency": 8,
-    "pureRanges": [
+    "pure": [
       {
         "frequency": 7,
         "effects": [
@@ -197,7 +197,7 @@
         "name": "Theta_7_Hz.mp3"
       }
     ],
-    "solfeggioRanges": [
+    "solfeggio": [
       {
         "binauralBeatFrequency": 6,
         "solfeggioFrequency": 639,
@@ -223,7 +223,7 @@
         "name": "Theta_5_Hz_Solfeggio_417_Hz.mp3"
       }
     ],
-    "isochronicRanges": [
+    "isochronic": [
       {
         "frequency": 6,
         "effects": [
