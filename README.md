@@ -1,10 +1,10 @@
 # Binaural Beats Dataset
 
-This dataset lists tracks along with their metadata for the binaural beats for the five brainwaves. It is not exhaustive, but should be complete enough for most use cases, since it contains binaural beats mixed with solfeggio and isochronic pulses as well.
+This dataset lists tracks along with their metadata for the binaural beats for the five brainwaves. It is not exhaustive, but should be complete enough for most use cases, since it contains binaural beats mixed with solfeggio and isochronic pulses as well. You can use this dataset by downloading a [release](https://github.com/neelkamath/binaural-beats-dataset/releases).
 
 ## Documentation
 
-The [`src/tracks`](src/tracks) directory contains the binaural beats in MP3 format. Solfeggio tracks are fifteen minutes long, and the rest are one minute long. Track names are guaranteed to be valid HTML `id`s. The following conventions are used to name tracks, where `<WAVE>` is the brainwave, `<FREQUENCY>` is the track's frequency, and `<SOLFEGGIO_FREQUENCY>` is the solfeggio's frequency.
+The [`src/tracks`](src/tracks) directory contains the binaural beats in MP3 format. Solfeggio tracks are fifteen minutes long. Pure and isochronic tracks are one second long. Track names are guaranteed to be valid HTML `id`s. The following conventions are used to name tracks, where `<WAVE>` is the brainwave, `<FREQUENCY>` is the track's frequency, and `<SOLFEGGIO_FREQUENCY>` is the solfeggio's frequency.
 - Pure: `<WAVE>_<FREQUENCY>.mp3` (e.g., `Alpha_8_Hz.mp3`)
 - Isochronic: `<WAVE>_<FREQUENCY>_Isochronic_Pulses.mp3` (e.g., `Alpha_10_Hz_Isochronic_Pulses.mp3`)
 - Solfeggio: `<WAVE>_<FREQUENCY>_Solfeggio_<SOLFEGGIO_FREQUENCY>.mp3` (e.g., `Alpha_12_Hz_Solfeggio_396_Hz.mp3`)
@@ -41,7 +41,7 @@ The [`src/tracks`](src/tracks) directory contains the binaural beats in MP3 form
 ## Credits
 
 - [FulLengthBinaurals](https://www.youtube.com/user/FulLengthBinaurals/featured)
-- [Greenred Productions - Relaxing Music](https://www.youtube.com/channel/UC1bjWVLp2aaJmPcNbi9OOsw)
+- [Eric Bartel](https://www.youtube.com/channel/UC98_050r8lMxngxurJgU1gA)
 - [WaveSource](https://www.youtube.com/channel/UCpYoHJQBehUorTJhbOVqYcQ)
 - [DeepWave Meditation](https://www.youtube.com/channel/UCC7jJKR5hleaXDrADBkpG9A)
 - [Binaural Beats Online](http://www.binauralbeatsonline.com)
