@@ -4,7 +4,9 @@ This dataset lists tracks along with their metadata for the binaural beats for t
 
 ## Documentation
 
-The [`src/tracks`](src/tracks) directory contains the binaural beats in aac format. Solfeggio tracks are fifteen minutes long. Pure and isochronic tracks are one second long. The following conventions are used to name tracks, where `<WAVE>` is the brainwave, `<FREQUENCY>` is the track's frequency, and `<SOLFEGGIO_FREQUENCY>` is the solfeggio's frequency.
+Since system controls cannot manipulate browser audio playback unless it has a duration of at least five seconds, every track is at least five seconds long. Pure and isochronic tracks can be set to loop because even if they start in the middle of a sine wave, they end in the same position (which is why tracks with non-integral frequencies have durations ten times their frequencies). Solfeggios can't because they're not monotonous.
+
+The [`src/tracks`](src/tracks) directory contains the binaural beats in AAC format. Solfeggio tracks are fifteen minutes long. Pure and isochronic tracks are one second long. The following conventions are used to name tracks, where `<WAVE>` is the brainwave, `<FREQUENCY>` is the track's frequency, and `<SOLFEGGIO_FREQUENCY>` is the solfeggio's frequency.
 
 |Type|Format|Example|
 |---|---|---|
