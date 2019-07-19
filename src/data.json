@@ -52,17 +52,6 @@
     "maxFrequency": 30,
     "pure": [
       {
-        "frequency": 14,
-        "effects": [
-          "Awakeness, alert",
-          "Concentration on tasks",
-          "Focusing",
-          "Vitality"
-        ],
-        "name": "Beta_14_Hz.mp3",
-        "duration": 5
-      },
-      {
         "frequency": 20,
         "effects": [
           "Promotes focused attention towards external stimuli",
