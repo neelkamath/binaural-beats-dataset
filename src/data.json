@@ -4,14 +4,6 @@
     "maxFrequency": 12,
     "pure": [
       {
-        "frequency": 8,
-        "effects": [
-          "Super-learning new information; memorisation, not comprehension"
-        ],
-        "name": "Alpha_8_Hz.mp3",
-        "duration": 5
-      },
-      {
         "frequency": 12,
         "effects": [
           "Centering, mental stability"
@@ -102,17 +94,6 @@
         ],
         "name": "Delta_0.9_Hz.mp3",
         "duration": 9
-      },
-      {
-        "frequency": 4,
-        "effects": [
-          "Enkephalin release for reduced stress",
-          "Allows brain to produce enkaphalins (all natural pain killer)",
-          "Full memory scanning",
-          "Vital for memory and learning; problem solving, object naming"
-        ],
-        "name": "Delta_4_Hz.mp3",
-        "duration": 5
       },
       {
         "frequency": 3,

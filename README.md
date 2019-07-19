@@ -1,6 +1,6 @@
 # Binaural Beats Dataset
 
-This dataset lists tracks along with their metadata for the binaural beats for the five brainwaves. It is not exhaustive, but should be complete enough for most use cases, since it contains binaural beats mixed with isochronic pulses and solfeggios as well. You can use this dataset by downloading a [release](https://github.com/neelkamath/binaural-beats-dataset/releases).
+This dataset lists tracks along with their metadata for the binaural beats for the five brainwaves. It is not exhaustive, but should be complete enough for most use cases, since it contains binaural beats mixed with isochronic pulses and solfeggios as well. You can use this dataset by downloading a [release](https://github.com/neelkamath/binaural-beats-dataset/releases). Every track is from the YouTube channel [FulLengthBinaurals](https://www.youtube.com/user/FulLengthBinaurals/featured) because they have allowed the tracks to be redistributed in any way.
 
 ## Documentation
 
@@ -10,7 +10,7 @@ The [`src/tracks`](src/tracks) directory contains the binaural beats in MP3 form
 
 |Type|Format|Example|
 |---|---|---|
-|Pure|`<WAVE>_<FREQUENCY>.mp3`|`Alpha_8_Hz.mp3`|
+|Pure|`<WAVE>_<FREQUENCY>.mp3`|`Alpha_12_Hz.mp3`|
 |Isochronic|`<WAVE>_<FREQUENCY>_Isochronic_Pulses.mp3`|`Alpha_10_Hz_Isochronic_Pulses.mp3`|
 |Solfeggio|`<WAVE>_<FREQUENCY>_Solfeggio_<SOLFEGGIO_FREQUENCY>.mp3`|`Alpha_12_Hz_Solfeggio_396_Hz.mp3`|
 
@@ -36,14 +36,6 @@ The structures of `pure`, `isochronic`, and `solfeggio` are described below.
 |`effects`|`pure`, `isochronic`, `solfeggio`|Yes|`array` of `string`s|Effects of hearing this track|`["Euphoric feeling"]`|
 |`name`|`pure`, `isochronic`, `solfeggio`|No|`string`|Name of the track present in the `tracks` subdirectory|`"Delta_0.9_Hz.mp3"`|
 |`duration`|`pure`, `isochronic`, `solfeggio`|No|`number`|Track's duration in seconds|`5`|
-
-## Credits
-
-- [FulLengthBinaurals](https://www.youtube.com/user/FulLengthBinaurals/featured)
-- [Eric Bartel](https://www.youtube.com/channel/UC98_050r8lMxngxurJgU1gA)
-- [WaveSource](https://www.youtube.com/channel/UCpYoHJQBehUorTJhbOVqYcQ)
-- [DeepWave Meditation](https://www.youtube.com/channel/UCC7jJKR5hleaXDrADBkpG9A)
-- [Binaural Beats Online](http://www.binauralbeatsonline.com)
 
 ## License
 
