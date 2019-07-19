@@ -8,7 +8,7 @@
         "effects": [
           "Super-learning new information; memorisation, not comprehension"
         ],
-        "name": "Alpha_8_Hz.aac",
+        "name": "Alpha_8_Hz.mp3",
         "duration": 5
       },
       {
@@ -16,7 +16,7 @@
         "effects": [
           "Centering, mental stability"
         ],
-        "name": "Alpha_12_Hz.aac",
+        "name": "Alpha_12_Hz.mp3",
         "duration": 5
       }
     ],
@@ -27,7 +27,7 @@
         "effects": [
           "Designed to ease you into a state of mental awareness"
         ],
-        "name": "Alpha_12_Hz_Solfeggio_396_Hz.aac",
+        "name": "Alpha_12_Hz_Solfeggio_396_Hz.mp3",
         "duration": 900
       }
     ],
@@ -37,7 +37,7 @@
         "effects": [
           "More intense meditation"
         ],
-        "name": "Alpha_10_Hz_Isochronic Pulses.aac",
+        "name": "Alpha_10_Hz_Isochronic Pulses.mp3",
         "duration": 5
       }
     ],
@@ -67,7 +67,7 @@
           "Focusing",
           "Vitality"
         ],
-        "name": "Beta_14_Hz.aac",
+        "name": "Beta_14_Hz.mp3",
         "duration": 5
       },
       {
@@ -77,7 +77,7 @@
           "Problem solving, conscious thinking",
           "Euphoria; can result in headaches, anxiety"
         ],
-        "name": "Beta_20_Hz.aac",
+        "name": "Beta_20_Hz.mp3",
         "duration": 5
       }
     ],
@@ -100,7 +100,7 @@
         "effects": [
           "Euphoric feeling"
         ],
-        "name": "Delta_0.9_Hz.aac",
+        "name": "Delta_0.9_Hz.mp3",
         "duration": 9
       },
       {
@@ -111,7 +111,7 @@
           "Full memory scanning",
           "Vital for memory and learning; problem solving, object naming"
         ],
-        "name": "Delta_4_Hz.aac",
+        "name": "Delta_4_Hz.mp3",
         "duration": 5
       },
       {
@@ -120,7 +120,7 @@
           "Profound relaxation, restorative sleep",
           "Tranquility and peace"
         ],
-        "name": "Delta_3_Hz.aac",
+        "name": "Delta_3_Hz.mp3",
         "duration": 5
       }
     ],
@@ -131,7 +131,7 @@
         "effects": [
           "This is designed to gently ease you into a deep state of relaxation. Both of the frequencies were chosen to help aid in the exploration and reconnecting of the unconscious mind."
         ],
-        "name": "Delta_3_Hz_Solfeggio_741_Hz.aac",
+        "name": "Delta_3_Hz_Solfeggio_741_Hz.mp3",
         "duration": 900
       },
       {
@@ -140,7 +140,7 @@
         "effects": [
           "This is designed for deep healing. 528hz Solfeggio is the frequency scientists use to repair DNA. This is paired it with a 4 Hz Delta Binaural Beat. In essence, this will bring your body and mind to a deep state of relaxation while the vibrations heal your body."
         ],
-        "name": "Delta_4_Hz_Solfeggio_528_Hz.aac",
+        "name": "Delta_4_Hz_Solfeggio_528_Hz.mp3",
         "duration": 900
       }
     ],
@@ -150,7 +150,7 @@
         "effects": [
           "More intense meditation"
         ],
-        "name": "Delta_4_Hz_Isochronic_Pulses.aac",
+        "name": "Delta_4_Hz_Isochronic_Pulses.mp3",
         "duration": 5
       }
     ],
@@ -173,14 +173,14 @@
     "pure": [
       {
         "frequency": 40,
-        "name": "Gamma_40_Hz.aac",
+        "name": "Gamma_40_Hz.mp3",
         "duration": 5
       }
     ],
     "isochronic": [
       {
         "frequency": 40,
-        "name": "Gamma_40_Hz_Isochronic_Pulses.aac",
+        "name": "Gamma_40_Hz_Isochronic_Pulses.mp3",
         "duration": 900
       }
     ],
@@ -208,7 +208,7 @@
           "Lucid dreaming",
           "Increased memory, focus, creativity"
         ],
-        "name": "Theta_7_Hz.aac",
+        "name": "Theta_7_Hz.mp3",
         "duration": 5
       }
     ],
@@ -219,7 +219,7 @@
         "effects": [
           "This is designed to gently ease you into a state of deep relaxation. Both of the frequencies were chosen to help aid you in the meditation of healing, allowing you to reflect and focus on ones spiritual self, along with healing of the mind."
         ],
-        "name": "Theta_6_Hz_Solfeggio_639_Hz.aac",
+        "name": "Theta_6_Hz_Solfeggio_639_Hz.mp3",
         "duration": 900
       },
       {
@@ -228,7 +228,7 @@
         "effects": [
           "This is designed to gently ease you into a state of deep relaxation. Both of the frequencies were chosen to help aid you in the meditation of healing, allowing you to reflect and focus on ones spiritual self, along with healing of the mind."
         ],
-        "name": "Theta_7_Hz_Solfeggio_852_Hz.aac",
+        "name": "Theta_7_Hz_Solfeggio_852_Hz.mp3",
         "duration": 900
       },
       {
@@ -237,7 +237,7 @@
         "effects": [
           "This is designed to gently ease you into a state of deep relaxation. Both of the frequencies were chosen to help aid you in the meditation of healing; allowing you to reflect and focus on ones spiritual self, along with the healing of the mind."
         ],
-        "name": "Theta_5_Hz_Solfeggio_417_Hz.aac",
+        "name": "Theta_5_Hz_Solfeggio_417_Hz.mp3",
         "duration": 900
       }
     ],
@@ -247,7 +247,7 @@
         "effects": [
           "More intense meditation"
         ],
-        "name": "Theta_6_Hz_Isochronic_Pulses.aac",
+        "name": "Theta_6_Hz_Isochronic_Pulses.mp3",
         "duration": 5
       }
     ],
