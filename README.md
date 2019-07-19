@@ -4,9 +4,9 @@ This dataset lists tracks along with their metadata for the binaural beats for t
 
 ## Documentation
 
-Since system controls cannot manipulate browser audio playback unless it has a duration of at least five seconds, every track is at least five seconds long. Pure and isochronic tracks can be set to loop because even if they start in the middle of a sine wave, they end in the same position (which is why tracks with non-integral frequencies have durations ten times their frequencies). Solfeggios can't because they're not monotonous.
+Since system controls cannot manipulate browser audio playback unless it has a duration of at least five seconds, every track is at least five seconds long. Pure and isochronic tracks can be set to loop because even if they start in the middle of a sine wave, they end in the same position (which is why tracks with non-integral frequencies have durations ten times their frequencies). Solfeggio tracks can't loop because they are'nt monotonous.
 
-The [`src/tracks`](src/tracks) directory contains the binaural beats in MP3 format. Solfeggio tracks are fifteen minutes long. Pure and isochronic tracks are one second long. The following conventions are used to name tracks, where `<WAVE>` is the brainwave, `<FREQUENCY>` is the track's frequency, and `<SOLFEGGIO_FREQUENCY>` is the solfeggio's frequency.
+The [`tracks`](tracks) directory contains the binaural beats in MP3 format. Solfeggio tracks are fifteen minutes long. Pure and isochronic tracks are at least five seconds long. The following conventions are used to name tracks, where `<WAVE>` is the brainwave, `<FREQUENCY>` is the track's frequency, and `<SOLFEGGIO_FREQUENCY>` is the solfeggio's frequency.
 
 |Type|Format|Example|
 |---|---|---|
@@ -14,7 +14,7 @@ The [`src/tracks`](src/tracks) directory contains the binaural beats in MP3 form
 |Isochronic|`<WAVE>_<FREQUENCY>_Isochronic_Pulses.mp3`|`Alpha_10_Hz_Isochronic_Pulses.mp3`|
 |Solfeggio|`<WAVE>_<FREQUENCY>_Solfeggio_<SOLFEGGIO_FREQUENCY>.mp3`|`Alpha_12_Hz_Solfeggio_396_Hz.mp3`|
 
-[`src/data.json`](src/data.json) contains metadata on binaural beats (frequencies are measured in Hz). It contains five keys representing the five brainwaves: `alpha`, `beta`, `delta`, `gamma`, and `theta`, each having the following structure.
+[`data.json`](data.json) contains metadata on binaural beats (frequencies are measured in Hz). It contains five keys representing the five brainwaves: `alpha`, `beta`, `delta`, `gamma`, and `theta`, each having the following structure.
 
 |Key|Optional|Data type|Explanation|Example|
 |---|---|---|---|---|
